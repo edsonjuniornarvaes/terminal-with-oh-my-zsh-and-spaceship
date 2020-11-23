@@ -23,7 +23,7 @@ $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/t
 
 ### Set Spaceship Theme
 
-### Enter in ~ / .zshrc
+- Enter in ~ / .zshrc
 ```
 $ sudo nano ~ / .zshrc
 ```
@@ -34,7 +34,7 @@ $ sudo nano ~ / .zshrc
 
 ### Configure Spaceship
 
-### At the end of the ~ / .zshrc file I add the following content
+- At the end of the ~ / .zshrc file I add the following content
 ```
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
