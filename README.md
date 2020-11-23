@@ -28,7 +28,7 @@ $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/t
 $ sudo nano ~ / .zshrc
 ```
 
-> Within ```~ /.zshrc```, find the line ```ZSH_THEME and change``` it to > ```ZSH_THEME = "spaceship"```
+- Within ```~ /.zshrc```, find the line ```ZSH_THEME and change``` it to > ```ZSH_THEME = "spaceship"```
 
 ### Additional configurations
 
