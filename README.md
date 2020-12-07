@@ -2,26 +2,26 @@
 
 ### Install Zsh
 
-### Check for existence
+##### Check for existence
 ```bash
 $ zsh --version
 ```
-### If not, install
+##### If not, install
 ```bash
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### Install Spaceship
+##### Install Spaceship
 ```bash
 $ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ```
 
-### Create a symbolic link
+##### Create a symbolic link
 ```bash
 $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-### Set Spaceship Theme
+##### Set Spaceship Theme
 
 - Enter in ~ / .zshrc
 ```
@@ -30,9 +30,9 @@ $ sudo nano ~ / .zshrc
 
 - Within ```~ /.zshrc```, find the line ```ZSH_THEME and change``` it to > ```ZSH_THEME = "spaceship"```
 
-### Additional configurations
+##### Additional configurations
 
-### Configure Spaceship
+##### Configure Spaceship
 
 - At the end of the ~ / .zshrc file I add the following content
 ```
@@ -55,12 +55,12 @@ SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 ```
 
-### Plugins ZSH
+##### Plugins ZSH
 ```bash
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 ```
 
-### Enter in ~ / .zshrc, after the line ### End of Zinit's installer chunk add
+##### Enter in ~ / .zshrc, after the line ### End of Zinit's installer chunk add
 ```
 zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
